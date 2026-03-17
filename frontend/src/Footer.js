@@ -19,41 +19,41 @@ const Footer = () => {
            
             <div className="col-md-2">
               <h6 className="fw-bold">Account</h6>
-              <a href="#">Open account</a>
-              <a href="#">Minor account</a>
-              <a href="#">Portfolio</a>
-              <a href="#">Fund transfer</a>
-              <a href="#">MTF</a>
+              <a href="/">Open account</a>
+              <a href="/">Minor account</a>
+              <a href="/">Portfolio</a>
+              <a href="/">Fund transfer</a>
+              <a href="/">MTF</a>
             </div>
 
             
             <div className="col-md-2">
               <h6 className="fw-bold">Support</h6>
-              <a href="#">Contact us</a>
-              <a href="#">Help center</a>
-              <a href="#">File complaint</a>
-              <a href="#">Track status</a>
-              <a href="#">Downloads</a>
+              <a href="/">Contact us</a>
+              <a href="/">Help center</a>
+              <a href="/">File complaint</a>
+              <a href="/">Track status</a>
+              <a href="/">Downloads</a>
             </div>
 
             
             <div className="col-md-2">
               <h6 className="fw-bold">Company</h6>
-              <a href="#">About</a>
-              <a href="#">Careers</a>
-              <a href="#">Blog</a>
-              <a href="#">Open source</a>
-              <a href="#">Referral</a>
+              <a href="/">About</a>
+              <a href="/">Careers</a>
+              <a href="/">Blog</a>
+              <a href="/">Open source</a>
+              <a href="/">Referral</a>
             </div>
 
             
             <div className="col-md-3">
               <h6 className="fw-bold">Quick links</h6>
-              <a href="#">Market basics</a>
-              <a href="#">Financial terms</a>
-              <a href="#">Investment tips</a>
-              <a href="#">Calculators</a>
-              <a href="#">Learning hub</a>
+              <a href="/">Market basics</a>
+              <a href="/">Financial terms</a>
+              <a href="/">Investment tips</a>
+              <a href="/">Calculators</a>
+              <a href="/">Learning hub</a>
             </div>
 
           </div>
@@ -76,9 +76,9 @@ const Footer = () => {
 
         <p className="small">
           © 2026 ShreeVest Fintech Pvt. Ltd. |
-          <a href="#"> Terms & Conditions</a> |
-          <a href="#"> Privacy Policy</a> |
-          <a href="#"> Disclaimer</a>
+          <a href="/"> Terms & Conditions</a> |
+          <a href="/"> Privacy Policy</a> |
+          <a href="/"> Disclaimer</a>
         </p>
 
       </div>
