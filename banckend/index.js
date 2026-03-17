@@ -10,7 +10,7 @@ const { orderModel } = require("./model/ordermodel");
 //const authRoute = require("./AuthRoute");
 const PORT = process.env.PORT  || 3002;
 const URL = process.env.MONGO_URL;
-const authRoutes = require("./routes/authRoutes");
+const authRoutes = require("./routes/Authroutes");
 const app = express();
 
 app.use(cors());
