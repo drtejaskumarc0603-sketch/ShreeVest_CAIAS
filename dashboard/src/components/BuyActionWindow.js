@@ -11,7 +11,7 @@ const BuyActionWindow = ({ uid }) => {
   const [message, setMessage] = useState("");
    const context = useContext(GeneralContext);
   const handleBuyClick = () => {
-  axios.post("http://localhost:3002/newOrder", {
+  axios.post("https://shreevest-caias.onrender.com/newOrder", {
     name: uid,
     qty: stockQuantity,
     price: stockPrice,
