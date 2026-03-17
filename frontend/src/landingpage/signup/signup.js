@@ -20,7 +20,7 @@ export default function SignUp() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3002/api/auth/signup", {
+      const response = await fetch("https://shreevest-caias.onrender.com/api/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -30,7 +30,7 @@ export default function SignUp() {
 
       const data = await response.json();
       if (response.ok) {
-      window.location.href = "http://localhost:3000";
+      window.location.href = "https://shree-vest-caias.vercel.app";
     } else {
       alert(data.message);
     }

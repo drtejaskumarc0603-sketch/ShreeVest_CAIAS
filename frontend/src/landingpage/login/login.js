@@ -19,7 +19,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:3002/api/auth/login", {
+    const response = await fetch("https://shreevest-caias.onrender.com/api/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -34,7 +34,7 @@ export default function Login() {
       localStorage.setItem("user", JSON.stringify({
   name: data.user?.name || data.user?.username || data.name
 }));
-      window.location.href = "http://localhost:3000";
+      window.location.href = "https://shree-vest-caias.vercel.app";
    
     } else {
       alert(data.error);
